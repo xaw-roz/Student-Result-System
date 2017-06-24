@@ -1,0 +1,283 @@
+JvmtiExport can_access_local_variables 0
+JvmtiExport can_hotswap_or_post_breakpoint 0
+JvmtiExport can_post_on_exceptions 0
+# 239 ciObject found
+ciMethod java/lang/Object <init> ()V 4097 1 1632548 0 0
+ciMethod java/lang/Thread currentThread ()Ljava/lang/Thread; 2049 1 256 0 -1
+ciMethod java/lang/Thread interrupt ()V 0 0 1 0 -1
+ciMethod java/util/Map values ()Ljava/util/Collection; 0 0 1 0 -1
+ciMethod sun/misc/Unsafe compareAndSwapInt (Ljava/lang/Object;JII)Z 2049 1 256 0 -1
+ciMethod java/util/Collection toArray ()[Ljava/lang/Object; 0 0 1 0 -1
+ciMethod java/util/List iterator ()Ljava/util/Iterator; 0 0 1 0 -1
+ciMethod java/util/List add (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod java/util/AbstractList <init> ()V 2057 1 108612 0 32
+ciMethod java/util/AbstractCollection <init> ()V 649 1 245993 0 32
+ciMethod java/util/HashMap values ()Ljava/util/Collection; 16385 1 4875 0 0
+ciMethod java/util/Iterator hasNext ()Z 0 0 1 0 -1
+ciMethod java/util/Iterator next ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethodData java/lang/Object <init> ()V 2 1632548 orig 264 72 34 49 105 0 0 0 0 128 4 13 21 0 0 0 0 32 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 33 57 199 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethod java/util/concurrent/locks/Lock lock ()V 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/Lock unlock ()V 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/ReentrantLock lock ()V 16457 1 57213 0 160
+ciMethod java/util/concurrent/locks/ReentrantLock unlock ()V 2057 1 71155 0 192
+ciMethodData java/util/AbstractCollection <init> ()V 2 245993 orig 264 72 34 49 105 0 0 0 0 56 97 25 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 81 0 0 0 193 4 30 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x3c098 oops 0
+ciMethod java/util/LinkedList <init> ()V 3081 1 18755 0 32
+ciMethod java/util/LinkedList <init> (Ljava/util/Collection;)V 2049 1 1758 0 0
+ciMethod java/util/LinkedList addAll (Ljava/util/Collection;)Z 2049 1 5469 0 0
+ciMethod java/util/LinkedList addAll (ILjava/util/Collection;)Z 2049 6873 4163 0 640
+ciMethod java/util/LinkedList isPositionIndex (I)Z 2081 1 15264 0 0
+ciMethod java/util/LinkedList checkPositionIndex (I)V 2081 1 15264 0 0
+ciMethod java/util/LinkedList node (I)Ljava/util/LinkedList$Node; 49169 385 11333 0 -1
+ciMethod java/util/AbstractSequentialList <init> ()V 3081 1 19505 0 0
+ciMethod java/util/LinkedList$Node <init> (Ljava/util/LinkedList$Node;Ljava/lang/Object;Ljava/util/LinkedList$Node;)V 2073 1 26267 0 0
+ciMethodData java/util/AbstractList <init> ()V 2 108612 orig 264 72 34 49 105 0 0 0 0 208 77 25 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 25 58 13 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x1a743 oops 0
+ciMethod java/util/HashMap$Values <init> (Ljava/util/HashMap;)V 1449 1 1800 0 0
+ciMethod java/util/concurrent/locks/ReentrantLock$NonfairSync lock ()V 16449 1 9241 0 128
+ciMethod java/util/concurrent/locks/ReentrantLock$NonfairSync tryAcquire (I)Z 1705 1 5333 0 192
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync lock ()V 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/ReentrantLock$Sync nonfairTryAcquire (I)Z 32929 1 9236 0 192
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer getState ()I 1025 1 128 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer setState (I)V 3081 1 22443 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetState (II)Z 3361 1 29448 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer enq (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 1993 41 5369 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer addWaiter (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 0 0 8 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer setHead (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 2321 1 5156 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer cancelAcquire (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer shouldParkAfterFailedAcquire (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 0 0 18 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer selfInterrupt ()V 0 0 1 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer parkAndCheckInterrupt ()Z 0 0 6 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer acquireQueued (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;I)Z 273 1 5155 0 992
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer tryAcquire (I)Z 0 0 1 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer acquire (I)V 97 1 9229 0 416
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer release (I)Z 3361 1 24683 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetTail (Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)Z 2049 1 5383 0 -1
+ciMethod java/util/concurrent/locks/AbstractOwnableSynchronizer setExclusiveOwnerThread (Ljava/lang/Thread;)V 2049 1 36788 0 0
+ciMethod java/util/concurrent/locks/AbstractOwnableSynchronizer getExclusiveOwnerThread ()Ljava/lang/Thread; 1025 1 128 0 0
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer$Node predecessor ()Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node; 2049 1 5176 0 -1
+ciMethod java/util/concurrent/locks/AbstractQueuedSynchronizer$Node <init> (Ljava/lang/Thread;Ljava/util/concurrent/locks/AbstractQueuedSynchronizer$Node;)V 65 1 8 0 -1
+ciMethod org/gradle/api/specs/Spec isSatisfiedBy (Ljava/lang/Object;)Z 0 0 1 0 -1
+ciMethod org/gradle/cache/internal/FileLockManager lock (Ljava/io/File;Lorg/gradle/cache/internal/filelock/LockOptions;Ljava/lang/String;)Lorg/gradle/cache/internal/FileLock; 0 0 1 0 -1
+ciMethodData java/util/LinkedList$Node <init> (Ljava/util/LinkedList$Node;Ljava/lang/Object;Ljava/util/LinkedList$Node;)V 2 26267 orig 264 72 34 49 105 0 0 0 0 232 207 62 21 0 0 0 0 72 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 193 44 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x6598 oops 0
+ciMethod org/gradle/cache/internal/FileAccess readFile (Lorg/gradle/internal/Factory;)Ljava/lang/Object; 0 0 1 0 -1
+ciMethod org/gradle/cache/internal/FileLock close ()V 0 0 1 0 -1
+ciMethod org/gradle/launcher/daemon/registry/PersistentDaemonRegistry getAll ()Ljava/util/List; 1905 1 1500 0 0
+ciMethod org/gradle/launcher/daemon/registry/PersistentDaemonRegistry getDaemonsMatching (Lorg/gradle/api/specs/Spec;)Ljava/util/List; 953 49505 750 0 -1
+ciMethod org/gradle/cache/PersistentStateCache get ()Ljava/lang/Object; 0 0 1 0 -1
+ciMethod org/gradle/cache/internal/FileIntegrityViolationSuppressingPersistentStateCacheDecorator get ()Ljava/lang/Object; 3073 1 1500 0 0
+ciMethod org/gradle/cache/internal/SimpleStateCache get ()Ljava/lang/Object; 3073 1 1500 0 0
+ciMethod org/gradle/cache/internal/OnDemandFileAccess readFile (Lorg/gradle/internal/Factory;)Ljava/lang/Object; 4097 1 1500 0 0
+ciMethod org/gradle/launcher/daemon/registry/DaemonRegistryContent getInfos ()Ljava/util/List; 2921 1 1500 0 0
+ciMethod org/gradle/cache/internal/filelock/LockOptionsBuilder <init> (Lorg/gradle/cache/internal/FileLockManager$LockMode;Z)V 2049 1 1531 0 0
+ciMethod org/gradle/cache/internal/filelock/LockOptionsBuilder mode (Lorg/gradle/cache/internal/FileLockManager$LockMode;)Lorg/gradle/cache/internal/filelock/LockOptionsBuilder; 2049 1 1523 0 0
+ciMethodData java/util/LinkedList checkPositionIndex (I)V 2 15264 orig 264 72 34 49 105 0 0 0 0 32 166 62 21 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 225 212 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 2 0 0 0 80 0 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 10 0x20002 0x3a9c 0x50007 0x3a9c 0x40 0x0 0xe0002 0x0 0x110002 0x0 oops 0
+ciMethodData java/util/LinkedList isPositionIndex (I)Z 2 15264 orig 264 72 34 49 105 0 0 0 0 32 164 62 21 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 1 0 0 225 212 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 9 0 2 0 0 0 88 0 0 0 255 255 255 255 7 0 1 0 0 0 0 0 data 11 0x10007 0x0 0x58 0x3a9c 0x90007 0x0 0x38 0x3a9c 0xd0003 0x3a9c 0x18 oops 0
+ciMethodData java/util/concurrent/locks/AbstractOwnableSynchronizer setExclusiveOwnerThread (Ljava/lang/Thread;)V 2 36788 orig 264 72 34 49 105 0 0 0 0 80 24 67 21 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 161 117 4 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer setState (I)V 2 22443 orig 264 72 34 49 105 0 0 0 0 104 233 66 21 0 0 0 0 40 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 81 177 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 255 255 255 255 0 0 0 0 0 0 0 0 data 0 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer compareAndSetState (II)Z 2 29448 orig 264 72 34 49 105 0 0 0 0 8 234 66 21 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 17 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 164 1 0 0 33 139 3 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 1 0 0 0 48 0 0 0 255 255 255 255 5 0 9 0 0 0 0 0 data 6 0x90005 0x0 0x0 0x0 0x0 0x0 oops 0
+ciMethodData java/util/concurrent/locks/AbstractQueuedSynchronizer acquire (I)V 2 9229 orig 264 72 34 49 105 0 0 0 0 72 253 66 21 0 0 0 0 16 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 12 0 0 0 9 32 1 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 8 0 2 0 0 0 192 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 24 0x20005 0x0 0x18b893e0 0x211a 0x1cf99530 0x2e7 0x50007 0x23fd 0x90 0x4 0xd0002 0x4 0x110005 0x0 0x1cf99530 0x4 0x0 0x0 0x140007 0x4 0x30 0x0 0x170002 0x0 oops 3 2 java/util/concurrent/ThreadPoolExecutor$Worker 4 java/util/concurrent/locks/ReentrantLock$NonfairSync 14 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/LinkedList <init> ()V 2 18755 orig 264 72 34 49 105 0 0 0 0 216 144 62 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 17 62 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x47c2 oops 0
+ciMethodData java/util/AbstractSequentialList <init> ()V 2 19505 orig 264 72 34 49 105 0 0 0 0 168 189 62 21 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 129 1 0 0 129 85 2 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x4ab0 oops 0
+ciMethodData java/util/concurrent/locks/ReentrantLock$Sync nonfairTryAcquire (I)Z 2 9236 orig 264 72 34 49 105 0 0 0 0 0 211 66 21 0 0 0 0 224 2 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 12 0 2 0 0 0 144 1 0 0 255 255 255 255 2 0 0 0 0 0 0 0 data 50 0x2 0x13ff 0x50005 0x0 0x1cf99530 0x13ff 0x0 0x0 0xa0007 0x421 0xa0 0xfde 0x100005 0x0 0x1cf99530 0xfde 0x0 0x0 0x130007 0x0 0x100 0xfdf 0x180005 0x0 0x1cf99530 0xfde 0x0 0x0 0x1f0005 0x0 0x1cf99530 0x421 0x0 0x0 0x220007 0x12 0x80 0x40f 0x2c0007 0x40f 0x30 0x0 0x350002 0x0 0x3c0005 0x0 0x1cf99530 0x40f 0x0 0x0 oops 5 4 java/util/concurrent/locks/ReentrantLock$NonfairSync 14 java/util/concurrent/locks/ReentrantLock$NonfairSync 24 java/util/concurrent/locks/ReentrantLock$NonfairSync 30 java/util/concurrent/locks/ReentrantLock$NonfairSync 46 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock lock ()V 2 57213 orig 264 72 34 49 105 0 0 0 0 120 45 39 21 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 161 187 6 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x1cf99530 0xd774 0x0 0x0 oops 1 2 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock$NonfairSync lock ()V 2 9241 orig 264 72 34 49 105 0 0 0 0 96 204 66 21 0 0 0 0 32 2 0 0 144 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 137 224 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 11 0 2 0 0 0 216 0 0 0 255 255 255 255 5 0 3 0 0 0 0 0 data 27 0x30005 0x0 0x1cf99530 0x1c11 0x0 0x0 0x60007 0x13 0x78 0x1bfe 0xa0002 0x1bfe 0xd0005 0x0 0x1cf99530 0x1bfe 0x0 0x0 0x100003 0x1bfe 0x48 0x150005 0x0 0x1cf99530 0x13 0x0 0x0 oops 3 2 java/util/concurrent/locks/ReentrantLock$NonfairSync 14 java/util/concurrent/locks/ReentrantLock$NonfairSync 23 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/concurrent/locks/ReentrantLock$NonfairSync tryAcquire (I)Z 2 5333 orig 264 72 34 49 105 0 0 0 0 248 204 66 21 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 213 0 0 0 1 160 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 2 0 0 0 0 0 data 6 0x20005 0x80 0x1cf99530 0x1380 0x0 0x0 oops 1 2 java/util/concurrent/locks/ReentrantLock$NonfairSync
+ciMethodData java/util/HashMap values ()Ljava/util/Collection; 2 4875 orig 264 72 34 49 105 0 0 0 0 248 120 27 21 0 0 0 0 80 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 89 88 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 6 0 2 0 0 0 48 0 0 0 255 255 255 255 7 0 6 0 0 0 0 0 data 6 0x60007 0x4b8 0x30 0x653 0xe0002 0x653 oops 0
+ciMethodData java/util/HashMap$Values <init> (Ljava/util/HashMap;)V 2 1800 orig 264 72 34 49 105 0 0 0 0 144 14 66 21 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 181 0 0 0 153 50 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0x653 oops 0
+ciMethodData java/util/LinkedList addAll (ILjava/util/Collection;)Z 2 17309 orig 264 72 34 49 105 0 0 0 0 96 159 62 21 0 0 0 0 216 2 0 0 152 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 91 3 0 0 25 122 0 0 17 2 2 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 27 0 2 0 0 0 128 1 0 0 255 255 255 255 2 0 2 0 0 0 0 0 data 48 0x20002 0xf43 0x60005 0xc4d 0x19037a50 0x266 0x19037b00 0x90 0x120007 0xf32 0x20 0x11 0x1c0007 0x0 0x38 0xf32 0x280003 0xf32 0x48 0x2d0005 0x0 0x0 0x0 0x0 0x0 0x480007 0xf32 0x80 0x4042 0x5f0002 0x4042 0x660007 0x3334 0x38 0xd0e 0x6f0003 0xd0e 0x18 0x800003 0x4042 0xffffffffffffff98 0x850007 0x0 0x38 0xf32 0x8e0003 0xf32 0x18 oops 2 4 java/util/ArrayList 6 java/util/HashSet
+ciMethodData java/util/LinkedList addAll (Ljava/util/Collection;)Z 2 5469 orig 264 72 34 49 105 0 0 0 0 248 157 62 21 0 0 0 0 128 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 233 162 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 6 0 0 0 0 0 data 6 0x60005 0x0 0x1cf92c20 0x145d 0x0 0x0 oops 1 2 java/util/LinkedList
+ciMethod org/gradle/cache/internal/SimpleStateCache$1 <init> (Lorg/gradle/cache/internal/SimpleStateCache;)V 3073 1 1500 0 0
+ciMethodData java/util/LinkedList <init> (Ljava/util/Collection;)V 2 1758 orig 264 72 34 49 105 0 0 0 0 120 145 62 21 0 0 0 0 144 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 241 46 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 8 0x10002 0x5de 0x60005 0x0 0x1cf92c20 0x5de 0x0 0x0 oops 1 4 java/util/LinkedList
+ciMethodData org/gradle/cache/internal/filelock/LockOptionsBuilder <init> (Lorg/gradle/cache/internal/FileLockManager$LockMode;Z)V 2 1531 orig 264 72 34 49 105 0 0 0 0 88 13 98 25 0 0 0 0 64 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 217 39 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 1 0 0 0 0 0 data 2 0x10002 0x4fb oops 0
+ciMethodData org/gradle/cache/internal/filelock/LockOptionsBuilder mode (Lorg/gradle/cache/internal/FileLockManager$LockMode;)Lorg/gradle/cache/internal/filelock/LockOptionsBuilder; 2 1523 orig 264 72 34 49 105 0 0 0 0 0 14 98 25 0 0 0 0 48 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 153 39 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0x4f3 oops 0
+ciMethodData org/gradle/launcher/daemon/registry/PersistentDaemonRegistry getDaemonsMatching (Lorg/gradle/api/specs/Spec;)Ljava/util/List; 2 39000 orig 264 72 34 49 105 0 0 0 0 128 79 139 21 0 0 0 0 152 3 0 0 112 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 44 24 0 0 185 19 0 0 97 1 4 0 0 0 0 0 0 0 0 0 2 0 0 0 1 0 13 0 2 0 0 0 72 2 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 73 0x40005 0x0 0x1cf92b70 0x277 0x0 0x0 0xd0002 0x277 0x120005 0x0 0x1cf923b0 0x277 0x0 0x0 0x170005 0x0 0x1cf92c20 0x277 0x0 0x0 0x200005 0x0 0x1cf92cd0 0x82a3 0x0 0x0 0x250007 0x277 0x118 0x802c 0x2a0005 0x0 0x1cf92cd0 0x802c 0x0 0x0 0x2f0004 0x0 0x1cf92d80 0x802c 0x0 0x0 0x370005 0x0 0x1cf92e30 0x802c 0x0 0x0 0x3c0007 0x802c 0x50 0x0 0x420005 0x0 0x0 0x0 0x0 0x0 0x480003 0x802c 0xfffffffffffffed0 0x520005 0x0 0x1cf92b70 0x277 0x0 0x0 0x600005 0x0 0x0 0x0 0x0 0x0 oops 8 2 java/util/concurrent/locks/ReentrantLock 10 org/gradle/launcher/daemon/registry/PersistentDaemonRegistry 16 java/util/LinkedList 22 java/util/LinkedList$ListItr 32 java/util/LinkedList$ListItr 38 org/gradle/launcher/daemon/registry/DaemonInfo 44 org/gradle/launcher/daemon/registry/PersistentDaemonRegistry$1 63 java/util/concurrent/locks/ReentrantLock
+ciMethodData org/gradle/launcher/daemon/registry/PersistentDaemonRegistry getAll ()Ljava/util/List; 2 1500 orig 264 72 34 49 105 0 0 0 0 16 76 139 21 0 0 0 0 200 2 0 0 192 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 238 0 0 0 113 39 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 10 0 2 0 0 0 128 1 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 48 0x40005 0x0 0x1cf92b70 0x4ee 0x0 0x0 0xd0005 0x0 0x1b1f0e90 0x4ee 0x0 0x0 0x120004 0x0 0x19069910 0x4ee 0x0 0x0 0x170007 0x4ee 0x60 0x0 0x1e0002 0x0 0x260005 0x0 0x0 0x0 0x0 0x0 0x2e0005 0x0 0x19069910 0x4ee 0x0 0x0 0x360005 0x0 0x1cf92b70 0x4ee 0x0 0x0 0x420005 0x0 0x0 0x0 0x0 0x0 oops 5 2 java/util/concurrent/locks/ReentrantLock 8 org/gradle/cache/internal/FileIntegrityViolationSuppressingPersistentStateCacheDecorator 14 org/gradle/launcher/daemon/registry/DaemonRegistryContent 32 org/gradle/launcher/daemon/registry/DaemonRegistryContent 38 java/util/concurrent/locks/ReentrantLock
+ciMethodData org/gradle/launcher/daemon/registry/DaemonRegistryContent getInfos ()Ljava/util/List; 2 1500 orig 264 72 34 49 105 0 0 0 0 48 160 139 21 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 109 1 0 0 121 35 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 64 0 0 0 255 255 255 255 5 0 8 0 0 0 0 0 data 8 0x80005 0x0 0x1effaca0 0x46f 0x0 0x0 0xd0002 0x46f oops 1 2 java/util/HashMap
+ciMethodData org/gradle/cache/internal/FileIntegrityViolationSuppressingPersistentStateCacheDecorator get ()Ljava/lang/Object; 2 1500 orig 264 72 34 49 105 0 0 0 0 120 103 139 21 0 0 0 0 120 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 225 34 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 5 0 2 0 0 0 48 0 0 0 255 255 255 255 5 0 4 0 0 0 0 0 data 6 0x40005 0x0 0x1b1f3740 0x45c 0x0 0x0 oops 1 2 org/gradle/cache/internal/SimpleStateCache
+ciMethodData org/gradle/cache/internal/SimpleStateCache get ()Ljava/lang/Object; 2 1500 orig 264 72 34 49 105 0 0 0 0 0 117 139 21 0 0 0 0 136 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 225 34 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 3 0 2 0 0 0 64 0 0 0 255 255 255 255 2 0 9 0 0 0 0 0 data 8 0x90002 0x45c 0xc0005 0x0 0x1b1f5110 0x45c 0x0 0x0 oops 1 4 org/gradle/cache/internal/OnDemandFileAccess
+ciMethodData org/gradle/cache/internal/SimpleStateCache$1 <init> (Lorg/gradle/cache/internal/SimpleStateCache;)V 2 1500 orig 264 72 34 49 105 0 0 0 0 40 205 7 33 0 0 0 0 56 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 128 1 0 0 225 34 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 16 0 0 0 255 255 255 255 2 0 6 0 0 0 0 0 data 2 0x60002 0x45c oops 0
+ciMethodData org/gradle/cache/internal/OnDemandFileAccess readFile (Lorg/gradle/internal/Factory;)Ljava/lang/Object; 1 1500 orig 264 72 34 49 105 0 0 0 0 56 141 139 21 0 0 0 0 32 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 77 68 79 32 101 120 116 114 97 32 100 97 116 97 32 108 111 99 107 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 0 225 30 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 7 0 2 0 0 0 208 0 0 0 255 255 255 255 2 0 11 0 0 0 0 0 data 26 0xb0002 0x3dc 0x120005 0x0 0x1eff56d0 0x3dc 0x0 0x0 0x1a0005 0x0 0x1eff5780 0x3dc 0x0 0x0 0x210005 0x0 0x1eff5780 0x3dc 0x0 0x0 0x2b0005 0x0 0x0 0x0 0x0 0x0 oops 3 4 org/gradle/cache/internal/DefaultFileLockManager 10 org/gradle/cache/internal/DefaultFileLockManager$DefaultFileLock 16 org/gradle/cache/internal/DefaultFileLockManager$DefaultFileLock
+instanceKlass org/gradle/internal/remote/internal/hub/DefaultMethodArgsSerializer$EmptyArraySerializer
+instanceKlass org/gradle/process/internal/health/memory/MaximumHeapHelper
+instanceKlass org/gradle/process/internal/daemon/WorkerDaemonClientsManager$1
+instanceKlass org/gradle/process/internal/daemon/WorkerDaemonExpiration$SimpleMemoryExpirationSelector
+instanceKlass org/gradle/launcher/daemon/registry/DaemonInfo$1
+instanceKlass java/net/Inet6Address$1
+instanceKlass org/gradle/internal/logging/events/StyledTextOutputEvent$Span
+instanceKlass org/springframework/boot/loader/tools/FileUtils
+instanceKlass java/io/Console$2
+instanceKlass sun/misc/JavaIOAccess
+instanceKlass java/io/Console$1
+instanceKlass groovy/util/CharsetToolkit
+instanceKlass org/gradle/api/internal/changedetection/changes/NoHistoryArtifactState
+instanceKlass org/gradle/api/internal/tasks/SimpleWorkResult
+instanceKlass com/google/common/collect/AbstractMapBasedMultimap$KeySet$1
+instanceKlass org/apache/tools/ant/filters/ReplaceTokens$Token
+instanceKlass org/apache/tools/ant/types/Parameter
+instanceKlass org/gradle/api/internal/file/copy/FilterChain$1
+instanceKlass org/gradle/api/internal/file/copy/FilterChain
+instanceKlass org/gradle/api/internal/file/copy/CopyFileVisitorImpl
+instanceKlass org/gradle/api/internal/file/copy/CopySpecActionImpl
+instanceKlass org/gradle/api/internal/file/copy/DuplicateHandlingCopyActionDecorator$1$1
+instanceKlass org/gradle/api/internal/file/copy/NormalizingCopyActionDecorator$1$1
+instanceKlass org/gradle/api/internal/file/copy/FileCopyAction$FileCopyDetailsInternalAction
+instanceKlass org/gradle/api/internal/file/copy/FileCopyDetailsInternal
+instanceKlass org/gradle/api/internal/file/copy/NormalizingCopyActionDecorator$1
+instanceKlass org/gradle/api/internal/file/copy/DuplicateHandlingCopyActionDecorator$1
+instanceKlass org/gradle/api/internal/file/copy/CopySpecBackedCopyActionProcessingStream
+instanceKlass org/gradle/api/internal/file/copy/NormalizingCopyActionDecorator
+instanceKlass org/gradle/api/internal/file/copy/DuplicateHandlingCopyActionDecorator
+instanceKlass org/gradle/api/internal/file/CopyActionProcessingStreamAction
+instanceKlass org/gradle/api/internal/file/copy/FileCopyAction
+instanceKlass org/gradle/api/internal/file/copy/CopyActionProcessingStream
+instanceKlass org/gradle/api/internal/file/collections/DirectoryTrees
+instanceKlass com/google/common/collect/ImmutableCollection$Builder
+instanceKlass org/gradle/cache/internal/DefaultMultiProcessSafePersistentIndexedCache$3
+instanceKlass org/gradle/cache/internal/AsyncCacheAccessDecoratedCache$3
+instanceKlass org/gradle/process/internal/worker/request/Receiver$Failure
+instanceKlass org/gradle/internal/serialize/ExceptionPlaceholder
+instanceKlass org/gradle/internal/serialize/ExceptionReplacingObjectInputStream$1
+instanceKlass com/google/common/collect/ImmutableList$SerializedForm
+instanceKlass javax/tools/JavaCompiler$CompilationTask
+instanceKlass org/codehaus/groovy/control/CompilerConfiguration
+instanceKlass org/gradle/internal/serialize/ExceptionReplacingObjectOutputStream$1
+instanceKlass org/gradle/internal/serialize/Message
+instanceKlass org/gradle/internal/remote/internal/hub/JavaSerializationBackedMethodArgsSerializer$ArraySerializer
+instanceKlass org/gradle/internal/remote/internal/hub/MethodInvocationSerializer$MethodDetails
+instanceKlass org/gradle/internal/remote/internal/hub/queue/MultiEndPointQueue$1
+instanceKlass org/gradle/process/internal/daemon/WorkerDaemonClient
+instanceKlass org/gradle/internal/remote/internal/hub/MessageHub$ConnectionReceive
+instanceKlass org/gradle/internal/remote/internal/hub/MessageHub$ConnectionDispatch
+instanceKlass org/gradle/internal/remote/internal/hub/ConnectionState
+instanceKlass org/gradle/internal/serialize/kryo/TypeSafeSerializer$2
+instanceKlass org/gradle/internal/remote/internal/hub/MethodInvocationSerializer$MethodInvocationWriter
+instanceKlass org/gradle/internal/remote/internal/hub/InterHubMessageSerializer$MessageWriter
+instanceKlass org/gradle/internal/serialize/kryo/TypeSafeSerializer$1
+instanceKlass org/gradle/internal/remote/internal/hub/MethodInvocationSerializer$MethodInvocationReader
+instanceKlass org/gradle/internal/remote/internal/hub/InterHubMessageSerializer$MessageReader
+instanceKlass org/gradle/internal/remote/internal/hub/MethodInvocationSerializer
+instanceKlass org/gradle/internal/serialize/kryo/TypeSafeSerializer
+instanceKlass org/gradle/internal/remote/internal/hub/InterHubMessageSerializer
+instanceKlass org/gradle/internal/remote/internal/hub/JavaSerializationBackedMethodArgsSerializer
+instanceKlass org/gradle/internal/remote/internal/hub/DefaultMethodArgsSerializer
+instanceKlass org/gradle/internal/concurrent/ThreadSafe
+instanceKlass org/gradle/internal/remote/internal/hub/MessageHub$ChannelDispatch
+instanceKlass org/gradle/internal/remote/internal/hub/MessageHub$Handler
+instanceKlass org/gradle/internal/remote/internal/hub/queue/EndPointQueue
+instanceKlass org/gradle/internal/remote/internal/hub/protocol/ChannelIdentifier
+instanceKlass org/gradle/internal/remote/internal/hub/MessageHubBackedObjectConnection$DispatchWrapper
+instanceKlass org/gradle/process/internal/worker/WorkerLoggingSerializer
+instanceKlass org/gradle/process/internal/worker/DefaultWorkerLoggingProtocol
+instanceKlass org/gradle/process/internal/worker/child/WorkerLoggingProtocol
+instanceKlass org/gradle/internal/remote/internal/hub/ConnectionSet
+instanceKlass org/gradle/internal/remote/internal/hub/queue/MultiEndPointQueue
+instanceKlass org/gradle/internal/remote/internal/hub/queue/QueueInitializer
+instanceKlass org/gradle/internal/remote/internal/hub/protocol/InterHubMessage
+instanceKlass org/gradle/internal/remote/internal/hub/protocol/Routable
+instanceKlass org/gradle/internal/remote/internal/hub/queue/MultiChannelQueue
+instanceKlass org/gradle/internal/remote/internal/hub/MessageHub$Discard
+instanceKlass org/gradle/internal/dispatch/BoundedDispatch
+instanceKlass org/gradle/internal/remote/internal/hub/RejectedMessageListener
+instanceKlass org/gradle/internal/remote/internal/hub/MessageHub
+instanceKlass org/gradle/internal/remote/internal/hub/MessageHubBackedObjectConnection$1
+instanceKlass org/gradle/internal/remote/internal/hub/MethodArgsSerializer
+instanceKlass org/gradle/internal/remote/internal/hub/MessageHubBackedObjectConnection
+instanceKlass org/gradle/internal/remote/ObjectConnection
+instanceKlass org/gradle/internal/remote/ObjectConnectionBuilder
+instanceKlass org/gradle/process/internal/streams/ExecOutputHandleRunner
+instanceKlass org/gradle/util/DisconnectableInputStream$1
+instanceKlass org/gradle/util/DisconnectableInputStream$ThreadExecuter
+instanceKlass net/rubygrapefruit/platform/internal/jni/WindowsHandleFunctions
+instanceKlass org/gradle/process/internal/ProcessBuilderFactory
+instanceKlass org/gradle/process/internal/ExecHandleRunner
+instanceKlass org/gradle/process/internal/daemon/WorkerDaemonResult
+instanceKlass org/gradle/process/internal/worker/request/Receiver
+instanceKlass org/gradle/internal/dispatch/StreamCompletion
+instanceKlass org/gradle/process/internal/worker/DefaultMultiRequestWorkerProcessBuilder$1
+instanceKlass org/gradle/process/internal/health/memory/MemoryAmount
+instanceKlass org/gradle/process/internal/worker/DefaultWorkerProcessBuilder$MemoryRequestingWorkerProcess
+instanceKlass org/gradle/process/internal/worker/DefaultWorkerProcess$1
+instanceKlass org/gradle/process/internal/ExecHandleShutdownHookAction
+instanceKlass net/rubygrapefruit/platform/internal/DefaultProcessLauncher
+instanceKlass net/rubygrapefruit/platform/internal/WindowsProcessLauncher
+instanceKlass net/rubygrapefruit/platform/internal/WrapperProcessLauncher
+instanceKlass org/gradle/process/internal/DefaultExecHandle
+instanceKlass org/gradle/process/internal/ProcessSettings
+instanceKlass org/gradle/process/internal/streams/StreamsForwarder
+instanceKlass org/gradle/process/internal/worker/WorkerProcessContext
+instanceKlass org/gradle/process/internal/worker/request/ResponseProtocol
+instanceKlass org/gradle/process/internal/worker/child/WorkerContext
+instanceKlass org/gradle/process/internal/worker/child/ActionExecutionWorker
+instanceKlass org/gradle/process/internal/worker/GradleWorkerMain
+instanceKlass org/gradle/process/internal/worker/child/SystemApplicationClassLoaderWorker
+instanceKlass org/objectweb/asm/signature/SignatureVisitor
+instanceKlass org/objectweb/asm/commons/Remapper
+instanceKlass org/gradle/process/internal/worker/child/WorkerProcessClassPathProvider$CacheInitializer
+instanceKlass org/gradle/internal/remote/internal/hub/MessageHubBackedServer$ConnectEventAction
+instanceKlass org/gradle/process/internal/worker/DefaultWorkerProcessBuilder$1
+instanceKlass org/gradle/process/internal/ExecHandleListener
+instanceKlass org/gradle/process/internal/worker/DefaultWorkerProcess
+instanceKlass org/gradle/process/internal/worker/request/WorkerAction
+instanceKlass org/gradle/internal/remote/internal/hub/StreamFailureHandler
+instanceKlass org/gradle/process/internal/worker/request/RequestProtocol
+instanceKlass org/gradle/process/internal/worker/DefaultWorkerProcessBuilder
+instanceKlass org/gradle/process/internal/worker/WorkerProcess
+instanceKlass org/gradle/process/internal/worker/DefaultMultiRequestWorkerProcessBuilder
+instanceKlass org/gradle/process/internal/daemon/WorkerDaemonWorker
+instanceKlass org/gradle/process/internal/worker/WorkerControl
+instanceKlass org/gradle/api/internal/tasks/compile/daemon/AbstractDaemonCompiler$CompilerWorkerAdapter
+instanceKlass org/gradle/process/internal/daemon/WorkerDaemonManager$1
+instanceKlass org/gradle/process/internal/daemon/WorkerDaemonServer
+instanceKlass org/gradle/process/internal/daemon/WorkerDaemonProtocol
+instanceKlass org/gradle/process/internal/daemon/DaemonForkOptions
+instanceKlass org/gradle/internal/Transformers$ToStringTransformer
+instanceKlass org/gradle/api/internal/tasks/compile/NormalizingGroovyCompiler$2
+instanceKlass org/gradle/api/internal/tasks/compile/NormalizingGroovyCompiler$1
+instanceKlass org/gradle/api/internal/tasks/compile/NormalizingGroovyCompiler
+instanceKlass org/gradle/process/internal/daemon/WorkerDaemonAction
+instanceKlass org/gradle/api/internal/tasks/compile/daemon/AbstractDaemonCompiler
+instanceKlass org/codehaus/groovy/tools/javac/JavaCompilerFactory
+instanceKlass org/codehaus/groovy/control/ProcessingUnit
+instanceKlass org/gradle/api/internal/tasks/compile/ApiGroovyCompiler
+instanceKlass org/gradle/api/internal/tasks/compile/JdkJavaCompiler
+instanceKlass org/gradle/api/internal/tasks/compile/GroovyCompilerFactory
+instanceKlass org/gradle/language/base/internal/compile/CompilerFactory
+instanceKlass org/gradle/api/internal/classloading/NoOpGroovySystemLoader
+instanceKlass org/gradle/api/internal/classloading/LeakyOnJava7GroovySystemLoader
+instanceKlass org/gradle/api/internal/classloading/GroovySystemLoader
+instanceKlass org/gradle/api/internal/classloading/GroovySystemLoaderFactory
+instanceKlass org/gradle/api/internal/tasks/compile/CommandLineJavaCompileSpec
+instanceKlass org/gradle/api/internal/tasks/compile/ForkingJavaCompileSpec
+instanceKlass org/gradle/api/internal/tasks/compile/AbstractJavaCompileSpecFactory
+instanceKlass org/gradle/api/internal/changedetection/rules/FileChange
+instanceKlass org/gradle/api/tasks/incremental/InputFileDetails
+instanceKlass org/gradle/api/internal/changedetection/rules/TaskStateChange
+instanceKlass com/google/common/collect/SortedLists
+instanceKlass org/gradle/api/internal/changedetection/rules/AbstractNamedFileSnapshotTaskStateChanges$2
+instanceKlass org/gradle/api/internal/changedetection/rules/AbstractNamedFileSnapshotTaskStateChanges$1
+instanceKlass com/google/common/base/Preconditions
+instanceKlass com/google/common/collect/Iterators$2
+instanceKlass com/google/common/collect/PeekingIterator
+instanceKlass com/google/common/collect/Iterators
+instanceKlass org/apache/commons/lang/ObjectUtils$Null
+instanceKlass org/apache/commons/lang/exception/Nestable
+instanceKlass org/apache/commons/lang/ObjectUtils
+instanceKlass org/gradle/util/DiffUtil
+instanceKlass org/gradle/api/internal/changedetection/rules/InputPropertiesTaskStateChanges$1
+instanceKlass org/gradle/api/internal/changedetection/rules/SummaryTaskStateChanges
+instanceKlass org/gradle/api/internal/changedetection/rules/DiscoveredInputsTaskStateChanges
+instanceKlass org/gradle/api/internal/changedetection/state/IgnoredPathFileSnapshot
+instanceKlass org/gradle/internal/component/model/LocalComponentDependencyMetadata$ClientAttributesPreservingConfigurationMetadata
+instanceKlass org/gradle/api/internal/changedetection/rules/CachingTaskStateChanges
+instanceKlass org/gradle/api/internal/changedetection/state/DefaultFileCollectionSnapshot$2
+instanceKlass org/gradle/internal/Factories$CachingSoftReferenceFactory
+instanceKlass org/gradle/api/internal/changedetection/state/DefaultFileCollectionSnapshot$1
+instanceKlass org/gradle/cache/internal/btree/BTreePersistentIndexedCache$DataBlockUpdateResult
+instanceKlass org/gradle/api/internal/changedetection/state/AbstractNormalizedFileSnapshot
+instanceKlass org/gradle/api/internal/changedetection/state/DirectoryTreeDetails
+instanceKlass org/gradle/cache/internal/DefaultMultiProcessSafePersistentIndexedCache$2
+instanceKlass org/gradle/cache/internal/CacheAccessWorker$AsyncCacheAccessRunnable
+instanceKlass org/gradle/cache/internal/AsyncCacheAccessDecoratedCache$2
+instanceKlass com/google/common/cache/RemovalNotification
+instanceKlass org/gradle/api/internal/changedetection/state/FileHashSnapshot
+instanceKlass org/gradle/api/internal/changedetection/state/AbstractFileCollectionSnapshotter$FileVisitorImpl
+instanceKlass org/gradle/api/internal/changedetection/state/DefaultFileDetails
